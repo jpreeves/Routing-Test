@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en" ng-app="testApp">
+ <head>
+   <title>Angularjs Routing Test</title>
+   <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css">
+   <script src="bower_components/jquery/dist/jquery.js"></script>
+   <script src="bower_components/angularjs/angular.js"></script>
+   <script src="bower_components/angular-route/angular-route.js"></script>
+   <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+   <script src="js/routes.js"></script>
+   <script src="js/controllers.js"></script>
+ </head>
+ <body>
+   <div class="container">
+    <div class="row">
+     <div class="col-sm-3">
+       <a href="#/Page1"> Page One </a>
+       <a href="#/Page2"> Page Two </a>
+     </div> <!-- .col-sm-3 -->
+     <div class="col-sm-9">
+      <h1>Before</h1>
+      <div ng-view=""></div>
+      <h1>After</h1>
+    </div> <!-- .col-sm-9 -->
+   </div> <!-- .row -->
+  </div><!-- .container -->
+ </body>
+</html>

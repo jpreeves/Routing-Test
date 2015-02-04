@@ -1,0 +1,2 @@
+http://viralpatel.net/blogs/angularjs-routing-and-views-tutorial-with-example/
+https://docs.angularjs.org/tutorial/step_07
